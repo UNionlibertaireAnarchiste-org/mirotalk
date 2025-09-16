@@ -1,0 +1,137 @@
+/* LibreChat Anarcho - Thème Révolutionnaire */
+
+:root {
+  --anarcho-black: #000000;
+  --anarcho-red: #ff0000;
+  --anarcho-white: #ffffff;
+  --anarcho-gray: #333333;
+  --anarcho-dark-red: #cc0000;
+}
+
+/* Corps principal */
+body {
+  background: linear-gradient(135deg, var(--anarcho-black) 0%, var(--anarcho-gray) 100%) !important;
+  color: var(--anarcho-white) !important;
+  font-family: 'Liberation Sans', Arial, sans-serif !important;
+}
+
+/* Boutons révolutionnaires */
+button, .button {
+  background: linear-gradient(45deg, var(--anarcho-red), var(--anarcho-dark-red)) !important;
+  border: 2px solid var(--anarcho-red) !important;
+  color: var(--anarcho-white) !important;
+  font-weight: bold !important;
+  text-transform: uppercase !important;
+  transition: all 0.3s ease !important;
+}
+
+button:hover, .button:hover {
+  background: var(--anarcho-white) !important;
+  color: var(--anarcho-red) !important;
+  border-color: var(--anarcho-white) !important;
+  box-shadow: 0 0 15px var(--anarcho-red) !important;
+}
+
+/* Headers anarchistes */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--anarcho-red) !important;
+  text-shadow: 2px 2px 4px var(--anarcho-black) !important;
+  font-weight: bold !important;
+}
+
+/* Chat collectif */
+.chat-container {
+  background: rgba(0, 0, 0, 0.9) !important;
+  border: 2px solid var(--anarcho-red) !important;
+}
+
+.chat-header {
+  background: var(--anarcho-red) !important;
+  color: var(--anarcho-white) !important;
+}
+
+/* Menus de paramètres */
+.tablinks {
+  background: var(--anarcho-black) !important;
+  border: 1px solid var(--anarcho-red) !important;
+  color: var(--anarcho-white) !important;
+}
+
+.tablinks.active, .tablinks:hover {
+  background: var(--anarcho-red) !important;
+  color: var(--anarcho-white) !important;
+}
+
+/* Inputs révolutionnaires */
+input, select, textarea {
+  background: var(--anarcho-black) !important;
+  border: 2px solid var(--anarcho-red) !important;
+  color: var(--anarcho-white) !important;
+}
+
+input:focus, select:focus, textarea:focus {
+  border-color: var(--anarcho-white) !important;
+  box-shadow: 0 0 10px var(--anarcho-red) !important;
+}
+
+/* Vidéo containers */
+.init-video-container, #videoMediaContainer {
+  border: 3px solid var(--anarcho-red) !important;
+  background: var(--anarcho-black) !important;
+}
+
+/* Loading screen */
+#loadingDiv {
+  background: radial-gradient(circle, var(--anarcho-black) 0%, var(--anarcho-gray) 100%) !important;
+}
+
+#loadingDiv h1 {
+  color: var(--anarcho-red) !important;
+  animation: pulse 2s infinite !important;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.7; }
+}
+
+/* Polls collectifs */
+.poll-header {
+  background: var(--anarcho-red) !important;
+  color: var(--anarcho-white) !important;
+}
+
+.poll-btn {
+  background: var(--anarcho-black) !important;
+  border: 2px solid var(--anarcho-red) !important;
+  color: var(--anarcho-red) !important;
+}
+
+/* Lobby camarades */
+#lobby {
+  background: rgba(0, 0, 0, 0.95) !important;
+  border: 3px solid var(--anarcho-red) !important;
+}
+
+.lobby-header {
+  background: var(--anarcho-red) !important;
+  color: var(--anarcho-white) !important;
+}
+
+/* Scrollbars anarchistes */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--anarcho-black);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--anarcho-red);
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--anarcho-white);
+}
